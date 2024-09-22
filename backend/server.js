@@ -14,9 +14,9 @@ app.get('/bfhl', (req, res) => {
 app.post('/bfhl', (req, res) => {
   const { data, file_b64 } = req.body;
 
-  const user_id = 'john_doe_17091999';
-  const email = 'john@xyz.com';
-  const roll_number = 'ABCD123';
+  const user_id = 'saichaitanya';
+  const email = 'saichaitanya_kagita@srmap.edu.in';
+  const roll_number = 'AP21110011367';
 
   const numbers = data.filter(item => !isNaN(item)).map(String);
   const alphabets = data.filter(item => isNaN(item));
