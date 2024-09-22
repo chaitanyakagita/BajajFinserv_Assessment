@@ -24,7 +24,7 @@ function App() {
 
     try {
       const parsedJson = JSON.parse(jsonInput);
-      const res = await axios.post('https://bajaj-finserv-backend.vercel.app/bfhl', parsedJson, {
+      const res = await axios.post('https://bajaj-finserv-assessment-9zvrrn0ea.vercel.app/bfhl', parsedJson, {
         headers: { 'Content-Type': 'application/json' },
       });
 
